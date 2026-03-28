@@ -65,12 +65,12 @@ function ToggleFullScreen() {
 		var isIOSChrome = winNav.userAgent.match("CriOS");
 		var isChrome =  isIOSChrome || (isChromium !== null && typeof isChromium !== "undefined" && vendorName === "Google Inc." && isOpera === false && isIEedge === false);
 		
-		var buildUrl = "Build";
-		var loaderUrl = buildUrl + "/Arcade_Car_Racing.loader.js";
+		var buildUrl = "build";
+		var loaderUrl = buildUrl + "/arcade_car_racing.loader.js";
 		var config = {
-        dataUrl: buildUrl + "/Arcade_Car_Racing.data",
-        frameworkUrl: buildUrl + "/Arcade_Car_Racing.framework.js",
-        codeUrl: buildUrl + "/Arcade_Car_Racing.wasm",
+        dataUrl: buildUrl + "/arcade_car_racing.data",
+        frameworkUrl: buildUrl + "/arcade_car_racing.framework.js",
+        codeUrl: buildUrl + "/arcade_car_racing.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Gamebol",
         productName: "Arcade Car Racing",
